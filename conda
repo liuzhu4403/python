@@ -1,0 +1,10 @@
+创建conda python 虚拟机环境
+
+conda env list 查看当前存下那些虚拟环境
+conda update conda 检查更新当前conda
+conda create -n your_env_name python=X.X（2.7、3.6等)命令创建python版本为X.X
+source activate your_env_name(使能虚拟环境 虚拟环境名称)
+conda install -n your_env_name [package]即可安装package到your_env_name中
+source deactivate（关闭虚拟环境）
+conda remove -n your_env_name(虚拟环境名称) --all  删除虚拟环境
+conda remove --name your_env_name  package_name  删除环境中某个包
