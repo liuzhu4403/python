@@ -10,3 +10,5 @@ conda install -n your_env_name [package]即可安装package到your_env_name中
 source deactivate（关闭虚拟环境）
 conda remove -n your_env_name(虚拟环境名称) --all  删除虚拟环境
 conda remove --name your_env_name  package_name  删除环境中某个包
+
+
